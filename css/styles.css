@@ -8,21 +8,29 @@ body {
     font-family: 'Roboto', 'Raleway', opensans;
     color: var(--black-color);
 }
-.logo {
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header-logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--black-color);
-    text-decoration: none;
 }
 
 .logo-web {
     color: var(--activation-color);
 }
 
-.item-menu {
+.header-link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -31,21 +39,20 @@ body {
     text-decoration: none;
 }
 
-.item-menu:hover,
-.item-menu:focus {
+.header-link:hover,
+.header-link:focus {
     color: var(--activation-color);
 }
-.item-contacts {
+.header-contacts {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-    text-decoration: none;
 }
 
-.item-contacts:hover,
-.item-contacts:focus {
+.header-contacts:hover,
+.header-contacts:focus {
     color: var(--activation-color);
 }
 
@@ -58,8 +65,8 @@ body {
     text-transform: uppercase;
     color: var(--white-color);
 }
-.order-button {
-    font-style: normal;
+.hero-button {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -70,15 +77,14 @@ body {
     cursor: pointer;
 }
 
-
-.title-feature {
+.feature-title {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.text-feature {
+.feature-text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -107,12 +113,23 @@ body {
 
 }
 
+/*------------------------------footer CSS----------------------------*/
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-studio {
+    color: var(--white-color);
+}
 .map-link {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--white-color);
-    text-decoration: none;
     font-style: normal;
 }
 
@@ -126,18 +143,17 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--white-color);
-    text-decoration: none;
     font-style: normal;
 }
+
 .contacts:hover,
 .contacts:focus  {
     color: var(--activation-color);
 }
 
-
 /*------------------------------портфоліо CSS----------------------------*/
-
-.project-buttons {
+.project-button {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -147,23 +163,23 @@ body {
     background: #F5F4FA;
     border-radius: 4px;
 }
-.project-buttons:hover,
-.project-buttons:focus {
+
+.project-button:hover,
+.project-button:focus {
     color: var(--white-color);
     background-color: var(--activation-color); 
 }
-.project-name {
+
+.portfolio-project-name {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--black-color); 
-
 }
 
-.project-type {
+.portfolio-project-type {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
-
 }
