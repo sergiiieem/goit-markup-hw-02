@@ -3,11 +3,12 @@
     --bgn-color: #ffffff;
     --activation-color: #2196F3;
     --second-bgn-color: #2F303A;
-    --portfolio-bgn-color: #EEEEEE;
+    --border-color: #EEEEEE;
     --bgn-section-color: #F5F4FA;
     --label-color: #000000;
     --line-color: #ECECEC;
     --text-color: #757575;
+    --contacts-color: rgb(255, 255, 255, 60%);
 
 }
 
@@ -34,7 +35,7 @@ body {
 
 }
 .header-logo {
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -56,6 +57,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    color: var(--black-color);
 }
 
 .header-link:hover,
@@ -219,8 +221,9 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgb(255, 255, 255, 60%); 
+    color: var(--contacts-color);  
     font-style: normal;
+
 }
 
 .contacts:hover,
@@ -234,7 +237,7 @@ body {
 
 }
 .portfolio-section {
-    background-color: var(--portfolio-bgn-color);
+    background-color: var(--bgn-color);
 }
 .portfolio-title {
 }
@@ -256,7 +259,7 @@ body {
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
-    color: var(--white-color);
+    color: var(--bgn-color);
     background-color: var(--activation-color); 
 }
 .portfolio-list {
